@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box; 
+  color: #50555c;  
+  
+ 
+}
+.heading {
+    text-transform: uppercase;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    text-align: center;
+    display: block;
+    font-family: 'ZCOOL XiaoWei', serif;
+    transform: translate(-10%,-50%)
+}
+.heading-main {
+    color: pink;
+    font-size: 25px;
+    letter-spacing: 10px;
+    display: block;
+}
+
+.header {
+    height: 70vh;
+    background: black;
+    background-image: url(AJ8nimX.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+} 
+ul {
+    list-style: none;
+}
+#nav {
+    background-color: black;
+    margin: 0px;
+    font-size: 15px;
+    padding: 0px;
+}
+#nav ul {
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#nav li {
+   margin: 0px;
+   padding: 0px;
+}
+#nav li a {
+    display: inline-block;
+    color: pink;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: background-color 0.3 linear;
+}
+#nav li a:hover {
+    background-color: rgb(211, 179, 121);
+    
+}
+h3 {
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+    display: block;
+    color: rgb(102, 64, 64);
+}
+.aboutme {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+h4 {
+    color: rgb(192, 76, 47);
+    margin: 2%;
+    padding: 1%;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+img {
+    margin: 50px;
+    background-position: center;
+    position: relative;
+    border: 1px solid rgb(165, 81, 42);
+    border-radius: 50%;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+.page {
+    margin: 3%
+}
+footer {
+   position: relative;
+   left:0;
+   bottom:2%;
+   height: 30px;
+   width:100%;
+   font-size: 20px;
+}
+footer li {
+    display: flex;
+    margin: 1%;
+    padding: 1%;
+
+}
+#contact {
+    font-size: 30px;
+    margin-bottom: 1px;
+
+}
+@media screen and (min-width: 420px) and (max-width: 800px) {
+    .page {
+        font-size: 33px;
+    }
+    #nav {
+        font-size: 35px;
+    }
+    #stuff {
+        font-size: 35px;
+    }
+    h4 {
+    font-size: 35px;
+    }
+    h3 {
+    font-size: 40px;
+    }
+    .aboutme {
+    font-size: 35px;
+    }
+    .heading-main {
+    font-size: 60px;
+    }
+    .stuff {
+        font-size: 26px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1500px) {
+    #nav {
+        font-size: 20px;
+        padding: 0px 30px;
+        }
+    .heading-main {
+        font-size: 40px;
+    }
+    .header {
+        height: 75vh;
+    }
+    .heading {
+        top: 80%;
+        left: 50%;
+    }
+    .page {
+        
+        font-size: 25px;
+        margin-left: 70px;
+        
+    }
+    .aboutme {
+        
+        padding: 30px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    h4 {
+        margin-left: 120px;
+        width: 500px; 
+        height: 60px;
+    }
+    .stuff {
+       float: left;
+       padding: 20px;
+       margin-left: 50px;
+    }
+    #nav li a:hover {
+        font-size: 25px;
+    }
+    .second {
+        width: 27%;
+        height: 500px;
+        float: left; 
+        margin-top: 16px;
+        display: block;
+
+
+    }
+    .first {
+        width: 43%;
+        height: 500px;
+        float: left;   
+        margin: 27px 10px 0px 0px;
+        display: block;
+      
+    }
+    .third {
+        width: 25%;
+        height: 500px;
+        float: left; 
+        display: block;
+
+    }
+   
+
+}
